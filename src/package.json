@@ -1,16 +1,12 @@
 {
-  "name": "Todo",
+  "name": "todo",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
   },
   "description": "Building a Todo List application with DocumentDB",
-  "author": {
-    "name": "",
-    "email": ""
-  },
-
+  "author": "veeseattle",
   "dependencies": {
     "async": "^0.9.0",
     "body-parser": "~1.10.2",
@@ -21,5 +17,20 @@
     "jade": "~1.9.1",
     "morgan": "~1.5.1",
     "serve-favicon": "~2.2.0"
-  }
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veeseattle/todotrial.git"
+  },
+  "keywords": [
+    "todo",
+    "documentdb",
+    "azure"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/veeseattle/todotrial/issues"
+  },
+  "homepage": "https://github.com/veeseattle/todotrial#readme"
 }

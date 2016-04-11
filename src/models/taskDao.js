@@ -16,13 +16,15 @@ TaskDao.prototype = {
 
     docdbUtils.getOrCreateDatabase(self.client, self.databaseId, function(err, db) {
       if (err) {
-        callback(err);
+        console.log(err);
+        //callback(err);
       }
 
       self.database = db;
       docdbUtils.getOrCreateCollection(self.client, self.database._self, self.collectionId, function(err, coll) {
         if (err) {
-          callback(err);
+          console.log(err);
+          //callback(err);
         }
 
         self.collection = coll;
